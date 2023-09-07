@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "reanviled",
+	"version": "${version}",
+	"name": "Reanviled",
+	"description": "Rebalanced anvil usage",
+	"authors": [
+		"rvbsm"
+	],
+	"contact": {
+		"repo": "https://github.com/rvbsm/reanviled",
+		"issues": "https://github.com/rvbsm/reanviled"
+	},
+	"license": "MIT",
+	"icon": "assets/reanviled/icon.png",
+	"environment": "*",
+	"mixins": [
+		"reanviled.mixins.json",
+		{
+			"config": "reanviled.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.0",
+		"minecraft": ">=1.20"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.rvbsm.reanviled.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"AnvilScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
